@@ -11,9 +11,9 @@ function addTask() {
     list.appendChild(item);
 
     let removeButton = document.createElement('button');
-    removeButton.setAttribute('id', taskName)
-    removeButton.addEventListener('click', removeTask)
-    removeButton.textContent = 'X'
+    removeButton.setAttribute('id', taskName);
+    removeButton.addEventListener('click', removeTask);
+    removeButton.textContent = 'X';
     item.appendChild(removeButton);
 }
 
